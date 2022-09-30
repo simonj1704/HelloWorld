@@ -45,7 +45,6 @@ public class MyTime {
     }
 
     public void printTime(){
-
         setHours(inputHours());
         setMinutes(inputMinutes());
         System.out.printf("%d:%02d", getHours(), getMinutes());
