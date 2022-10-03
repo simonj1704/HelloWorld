@@ -26,7 +26,7 @@ public class Game {
 
 
     public void checkWinner(){
-        if (getChoice() == 1 && getComChoice() == 3){
+            if (getChoice() == 1 && getComChoice() == 3){
             System.out.println("You won this round");
             playerRoundsWon++;
         } else if (getChoice() == 2 && getComChoice() == 1){
